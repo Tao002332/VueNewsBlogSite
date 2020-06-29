@@ -1,0 +1,479 @@
+.pgc-home {
+    background: #f4f5f6;
+    min-height: inherit;
+}
+
+.pgc-home .announcement, .pgc-home .announcement .notice-wrap {
+    display: -webkit-box;
+    display: flex;
+}
+
+.pgc-home .announcement {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 24px;
+    background-color: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+}
+
+.pgc-home .home-top-container {
+    display: -webkit-box;
+    display: flex;
+    height: 150px;
+    margin-top: 18px;
+}
+
+.pgc-home .home-content {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,.05);
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.pgc-home .announcement, .pgc-home .announcement .notice-wrap {
+    display: -webkit-box;
+    display: flex;
+}
+
+.pgc-home .announcement .notice-wrap .intro {
+    font-size: 16px;
+    color: #999;
+}
+
+.pgc-home .announcement .notice-wrap .intro:after {
+    content: "|";
+    margin-left: 5px;
+    margin-right: 7px;
+    color: #f9f9f9;
+}
+
+.pgc-home .announcement .content {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    justify-items: center;
+    font-size: 14px;
+}
+
+.pgc-home .announcement .item {
+    display: -webkit-box;
+    display: flex;
+}
+
+.pgc-home .announcement .item:last-child {
+    margin-left: 128px;
+}
+
+.pgc-home .announcement .item .notice-time {
+    color: #999;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.pgc-home .announcement .item .notice-name {
+    overflow: hidden;
+    display: inline-block;
+    max-width: 295px;
+    color: #222;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.garr-container input, .garr-container textarea, .garr-container a {
+    outline: 0;
+}
+
+
+.pgc-home .announcement .item .notice-time:after {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pgc-home .home-go-more {
+    top: 17px;
+    color: #666;
+    font-size: 14px;
+}
+
+.pgc-home .home-go-more:after {
+    content: "";
+    display: inline-block;
+    margin-bottom: 1px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    width: 7px;
+    height: 7px;
+    border: 1px solid #666;
+    border-right: none;
+    border-bottom: none;
+}
+
+.pgc-home .home-top-container .home-dashboard {
+    background: #fff;
+}
+
+.common-dashboard {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+}
+
+.pgc-home .home-top-container .home-dashboard .common-dashboard-column {
+    background: #fff;
+    position: relative;
+}
+
+.common-dashboard .common-dashboard-column:not(:last-child) {
+    margin-right: 20px;
+}
+
+.common-dashboard .common-dashboard-column {
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 2px;
+    height: 150px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.pgc-home .home-top-container .home-dashboard .common-dashboard-column .common-dashboard-primary {
+    font-size: 30px;
+}
+
+.common-dashboard .common-dashboard-column .common-dashboard-primary:first-child {
+    margin-bottom: 30px;
+}
+
+.common-dashboard .common-dashboard-column .common-dashboard-primary {
+    color: #222;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.common-dashboard .common-dashboard-column .common-dashboard-primary a {
+    color: inherit;
+}
+
+
+
+.pgc-home .home-top-container .home-dashboard .common-dashboard-column .common-dashboard-secondary {
+    color: #666;
+    font-size: 16px;
+}
+
+.common-dashboard .common-dashboard-column .common-dashboard-secondary {
+    color: #222;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.pgc-home .home-top-container .home-dashboard .common-dashboard-column .common-dashboard-secondary .second-child {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.pgc-home .home-top-container .home-dashboard .common-dashboard-column:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 1px;
+    height: 85px;
+    background-color: #f9f9f9;
+}
+
+.pgc-home .home-top-container .start-write {
+    flex-basis: 24.4%;
+    padding: 48px 42px 0 41px;
+    background: #fff;
+    margin-left: 20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    border-radius: 2px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.pgc-home .home-top-container .start-write .greeting {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 12px;
+}
+
+.byte-btn-primary:not(.byte-btn-disabled) {
+    border: 1px solid #ff5e5e;
+    background-color: #ff5e5e;
+}
+
+.byte-btn-size-default {
+    padding: 0 16px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 1.499;
+}
+
+.byte-btn {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .3s;
+    box-sizing: border-box;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.byte-tabs {
+    position: relative;
+    overflow: hidden;
+}
+
+.byte-tabs-header-nav {
+    position: relative;
+    background: #fff;
+}
+
+.byte-tabs-header-nav:before {
+    content: "";
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #e8e8e8;
+    background-color: #e8e8e8;
+    background-color: var(--black06);
+    display: block;
+}
+
+.byte-tabs-header-nav-horizontal .byte-tabs-header-scroll.is-dropdown {
+    padding-right: 20px;
+}
+
+.byte-tabs-header-nav-horizontal .byte-tabs-header-scroll {
+    overflow: hidden;
+    position: relative;
+}
+
+.byte-tabs-header-nav .byte-tabs-header-wrapper {
+    overflow: hidden;
+}
+
+.byte-tabs-header-nav .byte-tabs-header {
+    position: relative;
+    display: inline-block;
+    transition: transform .3s ease;
+    white-space: nowrap;
+}
+
+.byte-tabs-header-nav.byte-tabs-header-nav-horizontal .byte-tabs-header-title:first-child {
+    margin-left: 32px;
+}
+
+.byte-tabs-header-nav.byte-tabs-header-nav-horizontal .byte-tabs-header-title {
+    font-size: 16px;
+    margin: 18px 0 0 32px;
+}
+
+.byte-tabs-header-nav .byte-tabs-header-title.active {
+    color: #222222;
+    font-weight: 500;
+}
+
+.byte-tabs-header-nav .byte-tabs-header-title {
+    box-sizing: border-box;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #222222;
+    display: inline-block;
+    transition: color .3s;
+}
+
+.byte-tabs-header-nav.byte-tabs-header-nav-horizontal .byte-tabs-header-ink {
+    left: 32px;
+}
+
+
+.byte-tabs-header-nav .byte-tabs-header-ink {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    width: 0;
+    height: 2px;
+    background-color: #222222;
+    transition: left .3s ease;
+}
+
+.byte-tabs-header-nav .byte-tabs-header-ink {
+    background-color: #f04142;
+}
+
+
+.byte-tabs>.byte-tabs-content {
+    width: 100%;
+    overflow: hidden;
+    color: #222222;
+}
+
+.byte-tabs>.byte-tabs-content .byte-tabs-content-inner {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.byte-tabs>.byte-tabs-content .byte-tabs-content-item.byte-tabs-content-item-active {
+    height: auto;
+}
+
+.byte-tabs>.byte-tabs-content .byte-tabs-content-item {
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+}
+
+.byte-tabs:not(.mp-tabs-level-second)>.byte-tabs-content>.byte-tabs-content-inner>.byte-tabs-content-item>.byte-tabs-pane {
+    padding: 0 32px;
+}
+
+.wrap-discover {
+    padding: 25px 0;
+}
+
+.pgc-home-activity {
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    min-height: 355px;
+}
+
+.pgc-home .home-go-more {
+    top: 17px;
+    color: #666;
+    font-size: 14px;
+}
+
+.pgc-home-activity .activity-more {
+    position: absolute;
+    right: 23px;
+    top: 24px;
+}
+
+.pgc-home .home-go-more:after {
+    content: "";
+    display: inline-block;
+    margin-bottom: 1px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    width: 7px;
+    height: 7px;
+    border: 1px solid #666;
+    border-right: none;
+    border-bottom: none;
+}
+
+.pgc-home-activity .task-list {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pgc-home-activity .task-list .task-card {
+    width: 289px;
+    height: 152px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    padding: 24px 29px 20px 20px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    position: relative;
+    color: #eb5758;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.pgc-home-activity .task-list .task-card .hot-icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.pgc-home-activity .task-list .task-card .card-title {
+    font-size: 16px;
+    color: #222;
+    line-height: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pgc-home-activity .task-list .task-card .card-description {
+    margin-top: 12px;
+    width: 240px;
+    line-height: 20px;
+    color: #666;
+    font-size: 14px;
+    height: 40px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.pgc-home-activity .task-list .task-card .card-numbers {
+    font-size: 14px;
+    color: #666;
+    margin-top: 12px;
+    line-height: 20px;
+}

@@ -1,0 +1,354 @@
+.task-list-plaza {
+    border-radius: 2px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    background-color: #fff;
+    width: 980px;
+    height: 100%;
+}
+
+.task-list-plaza .task-name {
+    height: 52px;
+    line-height: 52px;
+    padding-left: 34px;
+    color: #666;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.task-list-plaza .plaza-content {
+    padding-bottom: 88px;
+    position: relative;
+}
+
+.task-list-plaza .plaza-content .task-filter {
+    padding: 25px 32px 20px 36px;
+}
+.task-list-plaza .plaza-content .search-ipt {
+    position: absolute;
+    right: 40px;
+    top: 27px;
+}
+
+.task-list-plaza .plaza-content .task-list {
+    padding: 0 24px 0 40px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-list-plaza .plaza-content .byte-pagination {
+    margin-right: 40px;
+}
+
+
+.byte-pagination.mp-pagination-default-top-margin {
+    margin-top: 32px;
+}
+
+.byte-pagination.mp-pagination-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.byte-pagination {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.task-list-plaza .plaza-content .task-filter .filter-item {
+    margin-top: 8px;
+    display: -webkit-box;
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+
+
+.task-list-plaza .plaza-content .task-filter .filter-item .item-label {
+    flex-basis: 56px;
+    color: #666;
+    margin-right: 14px;
+}
+.task-list-plaza .plaza-content .task-filter .filter-item .item.item-selected {
+    color: #f85959;
+}
+
+
+.task-list-plaza .plaza-content .task-filter .filter-item .item:first-child {
+    margin-left: 0;
+}
+
+
+.task-list-plaza .plaza-content .task-filter .filter-item .item {
+    margin-left: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 12px;
+    width: 48px;
+    text-align: center;
+}
+
+.task-list-plaza .plaza-content .task-filter .filter-item .item.first {
+    margin-left: 0;
+}
+
+.task-list-plaza .plaza-content .task-filter .filter-item .topic-wrap {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1;
+	font-size: 14px;
+}
+
+
+.task-list-plaza .plaza-content .task-list {
+    padding: 30px 24px 0 40px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-list-plaza .plaza-content .task-list .task-card {
+    width: 289px;
+    height: 152px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    padding: 24px 29px 20px 20px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    position: relative;
+    color: #eb5758;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+
+.task-list-plaza .plaza-content .task-list .task-card .hot-icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.task-list-plaza .plaza-content .task-list .task-card .card-title {
+    font-size: 16px;
+    color: #222;
+    line-height: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.task-list-plaza .plaza-content .task-list .task-card .card-description {
+    margin-top: 12px;
+    width: 240px;
+    line-height: 20px;
+    color: #666;
+    font-size: 14px;
+    height: 40px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.task-list-plaza .plaza-content .task-list .task-card .card-numbers {
+    font-size: 14px;
+    color: #666;
+    margin-top: 12px;
+    line-height: 20px;
+}
+
+.byte-input-group-wrapper {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.byte-input-group-wrapper .byte-input-group {
+    display: table;
+    width: 100%;
+    line-height: 1;
+    height: 100%;
+}
+
+.byte-input-group-wrapper .byte-input-group>:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+.byte-input-group-wrapper .byte-input-group>:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper {
+    display: table-cell;
+    width: 100%;
+    position: relative;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.byte-input-group-wrapper .byte-input-group>:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.byte-input-group-wrapper .byte-input-group>:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper .prefix.prefix, .byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper .suffix.prefix {
+    left: 10px;
+}
+
+.byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper .prefix, .byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper .suffix {
+    color: #bfbfbf;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    line-height: 0;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.task-list-plaza .plaza-content .search-ipt .search-icon {
+    cursor: pointer;
+}
+
+
+
+.byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper .byte-input.byte-input-prefix {
+    padding-left: 30px;
+}
+
+.byte-input-group-wrapper .byte-input-group .byte-input-inner-wrapper .byte-input {
+    outline: none;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    color: #222222;
+    padding: 0 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color .3s,box-shadow .3s;
+}
+
+.byte-input.byte-input-prefix, .byte-textarea.byte-input-prefix {
+    padding-left: 30px;
+}
+
+.garr-container input, .garr-container textarea, .garr-container a {
+    outline: 0;
+}
+
+.byte-input {
+    padding: 0 12px;
+    border-color: #d8d8d8;
+}
+
+.byte-input, .byte-textarea {
+    outline: none;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    color: #222222;
+    padding: 0 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color .3s,box-shadow .3s;
+}
+
+input {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.byte-pagination .byte-pagination-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    color: #222222;
+    color: #222222;
+    color: var(--black01);
+    font-size: 14px;
+}
+
+.byte-pagination-size-default .byte-pagination-list .byte-pagination-item.byte-pagination-item-active {
+    color: #fff;
+}
+
+.byte-pagination .byte-pagination-list .byte-pagination-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.byte-pagination .byte-pagination-list .byte-pagination-item.byte-pagination-item-icon {
+    font-size: 12px;
+}
+
+.byte-pagination .byte-pagination-list .byte-pagination-item.disabled, .byte-pagination .byte-pagination-list .byte-pagination-item.disabled:hover {
+    cursor: not-allowed;
+    background-color: #f5f5f5;
+    color: #bfbfbf;
+}
+
+.byte-pagination-size-default .byte-pagination-list .byte-pagination-item {
+    min-width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.byte-pagination .byte-pagination-list .byte-pagination-item {
+    border-radius: 2px;
+}
+
+.byte-pagination-size-default .byte-pagination-list .byte-pagination-item {
+    font-size: 14px;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.byte-pagination .byte-pagination-list .byte-pagination-item {
+    display: inline-block;
+    color: #222222;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.byte-pagination .byte-pagination-list .byte-pagination-item-active {
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff5e5e;
+}

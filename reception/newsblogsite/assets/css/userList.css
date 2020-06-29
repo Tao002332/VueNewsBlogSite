@@ -1,0 +1,98 @@
+.media li {
+    position: relative;
+}
+li {
+    list-style: none;
+}
+.media li .media-list {
+    display: table;
+    width: 100%;
+}
+
+.media li .media-list>dd.avatar-wrap {
+    width: 55px;
+    padding: 14px 15px 14px 30px;
+}
+.media li .media-list>dd {
+    display: table-cell;
+    padding: 14px 0;
+    width: auto;
+    vertical-align: middle;
+}
+
+.media li .media-list>dd.avatar-wrap>a {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+}
+.media li .media-list>dd.avatar-wrap img {
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+}
+
+.media li .media-list>dd.avatar-wrap>a:before {
+    content: '';
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.08);
+}
+
+a:visited {
+    color: #999;
+}
+a {
+    color: #222;
+}
+a, a:hover, del, ins, s, u {
+    text-decoration: none;
+}
+a, button {
+    cursor: pointer;
+}
+
+
+.media li .media-list>dd h3 {
+    font-size: 18px;
+    color: #222;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.media li .media-list>dd.relation {
+    width: 85px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.media li .media-list:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 640px;
+    background-color: #e8e8e8;
+    bottom: -1px;
+    left: 30px;
+}
+
+.btn-attention {
+    display: inline-block;
+    text-align: center;
+    width: 78px;
+    line-height: 28px;
+    border: 1px solid #2A90D7;
+    border-radius: 6px;
+    color: #fff;
+    background: #2A90D7;
+    cursor: pointer;
+    margin: 5px auto;
+}

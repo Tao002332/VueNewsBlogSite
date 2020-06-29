@@ -1,0 +1,416 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    overflow: scroll;
+}
+
+.page-wrap {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-color: #eee;
+    background-position: top center;
+}
+
+.page-wrap .logo-wrap {
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 110px;
+    height: 27px;
+}
+
+a {
+    background-color: transparent;
+}
+
+.page-wrap .slogan-wrap {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 10px;
+}
+
+.page-wrap .slogan-wrap img {
+    width: 520px;
+    height: 360px;
+}
+
+img {
+    border-style: none;
+}
+
+.page-wrap .login-wrap {
+    position: relative;
+    top: -150px;
+    margin: 0 auto;
+    width: 375px;
+    border-radius: 6px;
+}
+
+.login_box{
+	margin:0 auto;
+	font-family:PingFangSC;
+	width:100%;
+	height:100%;
+	min-height:100vh;
+}
+
+.login-form-byted {
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    box-sizing: content-box;
+}
+
+.page-wrap .login-form-byted .form-main {
+    padding: 0 25px;
+}
+
+
+.login-form-byted .form-main {
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 0 16px;
+}
+
+.login-form-byted .form-header .login-switch {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+
+.page-wrap .login-form-byted .form-header .login-switch .active {
+    background: #ffffff;
+}
+
+.page-wrap .login-wrap .form-header .login-switch .login-switch-title {
+    height: 52px;
+}
+
+
+
+.login-form-byted .form-header .login-switch .login-switch-title {
+    height: 63px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #c6c6c6;
+    border-bottom: #d9d9d9 1px solid;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #fff -webkit-linear-gradient(left, #d9d9d9, #d9d9d9) no-repeat center bottom;
+    background: #fff linear-gradient(to right, #d9d9d9, #d9d9d9) no-repeat center bottom;
+    background-size: 0 1px;
+    background-position: center bottom;
+}
+
+.login-form-byted .form-header .login-switch .active {
+    color: #000000;
+    background-size: 100% 2px;
+}
+
+
+
+.page-wrap .login-wrap .form-body {
+    padding: 20px 0;
+}
+
+.login-form-byted .form-body {
+    position: relative;
+    padding: 32px 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.page-wrap .login-form-byted .form-body .form-item {
+    height: 46px;
+}
+
+.login-form-byted .form-body .form-item {
+    position: relative;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 64px;
+    border-radius: 4px;
+    border: solid 1px #e8e8e8;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.login-form-byted .form-body .form-item .bytedance-input {
+    font-size: 16px;
+    line-height: 24px;
+    height: 80%;
+    padding-left: 20px;
+    border: none;
+    box-sizing: content-box;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    border-radius: 4px;
+    outline: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.login-form-byted .form-body .mobile-code-get::before {
+    content: "";
+    width: 1px;
+    height: 50%;
+    top: 50%;
+    bottom: 50%;
+    margin: auto;
+    background-color: #e8e8e8;
+}
+
+.login-form-byted .form-body .mobile-code-get {
+    text-align: center;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 80%;
+    cursor: pointer;
+    float: right;
+}
+
+.get-code{
+    height: 46px;
+    background-color: #409eff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.page-wrap .login-form-byted .form-body .bytedance-submit {
+    height: 46px;
+    margin-top: 12px;
+    background-color: #f85959;
+}
+
+.login-form-byted .form-body .bytedance-submit {
+    width: 100%;
+    height: 64px;
+    margin-top: 16px;
+    background-color: #f85959;
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    zoom: 1;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+.login-form-byted .i-divider-horizontal {
+    margin-top: 32px;
+    margin-bottom: 30px;
+    display: table;
+    white-space: nowrap;
+    text-align: center;
+    background: transparent;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    color: #c6c6c6;
+}
+
+
+.page-wrap .login-form-byted .i-divider-horizontal::before, .page-wrap .login-form-byted .i-divider-horizontal::after {
+    border-top: 1px solid #898989;
+}
+
+.login-form-byted .i-divider-horizontal::before, .login-form-byted .i-divider-horizontal::after {
+    position: relative;
+    display: table-cell;
+    width: 50%;
+    border-top: 1px solid #e8e8e8;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    content: "";
+    box-sizing: border-box;
+}
+
+.login-form-byted .i-divider-horizontal .i-divider-inner-text {
+    display: inline-block;
+    padding: 0 32px;
+    display: table;
+    white-space: nowrap;
+    text-align: center;
+    background: transparent;
+    font-variant: tabular-nums;
+    list-style: none;
+}
+
+.page-wrap .login-form-byted .i-divider-horizontal {
+    color: #898989;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.login-form-byted .form-footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 0 30px 15px;
+}
+
+.login-form-byted .form-footer .footer-login-type {
+    margin: 5px 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.page-wrap .login-form-byted .form-footer .login-type-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.login-form-byted .form-footer .login-type-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+
+
+.login-form-byted .form-footer .footer-login-type span {
+    font-size: 12px;
+    line-height: 1;
+    color: #505050;
+}
+
+
+.page-wrap .login-wrap .terms {
+    font-size: 12px;
+}
+
+.page-wrap .login-wrap .terms a {
+    color: #406599;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+#__nuxt,#__layout,body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#__layout>div:first-child {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+.search-text{
+    color: red;
+}

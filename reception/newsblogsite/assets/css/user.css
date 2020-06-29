@@ -1,0 +1,471 @@
+.wuserbox .new-article {
+    color: #fff;
+    padding: 0 16px;
+    background-color: #3a3a3a;
+    margin-right: 20px;
+}
+
+#header .middlebar {
+    position: relative;
+    height: 58px;
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.12);
+}
+
+#header .middlebar .middlebar-inner {
+    width: 1060px!important;
+}
+#header .middlebar .middlebar-inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .middlebar .middlebar-inner .logo-box {
+    line-height: 58px;
+    overflow: hidden;
+}
+
+#header .middlebar .middlebar-inner .logo-box .logo-link {
+    display: block;
+}
+
+#header .middlebar .middlebar-inner .logo-box .logo-link>img {
+    width: 108px;
+    height: 27px;
+    vertical-align: middle;
+}
+
+.wsearch {
+    position: relative;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.wsearch .input-group {
+    position: relative;
+    border: 1px solid #e8e8e8;
+    padding: 0 14px;
+    background-color: #f5f6f7;
+    border-radius: 4px;
+}
+
+.wsearch .input-text {
+    border: 0;
+    color: #444;
+    font-size: 14px;
+    line-height: 20px;
+    width: 280px;
+    padding: 0;
+    outline: 0;
+    padding: 9px 10px 9px 0;
+    background: #f5f6f7;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wsearch .btn-submit {
+    display: block;
+    border-left: 0;
+}
+
+.wsearch .btn-submit button {
+    line-height: 38px;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.y-icon.icon-search {
+    font-size: 16px;
+    color: #ddd;
+}
+
+#wrapper {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+#wrapper .yheader {
+    margin-bottom: 20px;
+}
+.yheader {
+    background: #fff;
+}
+
+.yheader .bg-header {
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+
+.yheader>div {
+    position: relative;
+    min-height: 84px;
+    padding: 16px 0 0 134px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yheader>div>a {
+    position: absolute;
+    left: 20px;
+    top: -36px;
+}
+
+.yheader>div>a:before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.08);
+}
+
+.yheader>div .avatar {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 100px;
+}
+
+
+.yheader>div .title {
+    font-size: 24px;
+    color: #222;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.yheader>div .title>a, .yheader>div .title>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.yheader>div .title .name {
+    color: #222;
+}
+.yheader>div .title span {
+    font-weight: 700;
+    display: table-cell;
+}
+
+.yheader>div .des a {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-bottom: 14px;
+    display: inline-block;
+    width: 570px;
+}
+#wrapper .left {
+    display: table-cell;
+    width: 700px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+#wrapper .right {
+    display: table-cell;
+    width: 340px;
+    vertical-align: top;
+}
+.tab {
+    background: #fff;
+    position: relative;
+    border-bottom: 2px solid #E8E8E8;
+    height: 46px;
+    line-height: 46px;
+    border-spacing: 40px 0;
+}
+
+.tab li.active {
+    color: #E72418;
+    border-bottom: 2px solid #e72418;
+}
+.tab li {
+    display: table-cell;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.feedBox {
+    min-height: 519px;
+}
+
+.relatedFeed {
+    position: relative;
+    background: #fff;
+}
+
+.relatedFeed .item {
+    position: relative;
+}
+
+.relatedFeed .item-inner {
+    position: relative;
+    padding: 24px 0;
+    margin: 0 24px;
+    border-bottom: 1px solid #f4f5f6;
+}
+
+.relatedFeed .normal.rbox {
+    float: right;
+    height: 102px;
+    width: 480px;
+}
+.relatedFeed .normal {
+    position: relative;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.relatedFeed .normal:before {
+    content: '';
+    width: 0;
+    font-size: 0;
+    height: 100%;
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.relatedFeed .normal .rbox-inner {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.relatedFeed .title-box {
+    display: block;
+    font-size: 20px;
+    color: #000042;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.relatedFeed .link:visited {
+    color: #999;
+}
+.relatedFeed .title-box a {
+    color: #222;
+}
+.relatedFeed .link {
+    color: #4f5157;
+}
+
+.relatedFeed .footer {
+    font-size: 12px;
+    color: #999;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.relatedFeed .lbtn.ltop {
+    padding: 1px 2px;
+    border: 1px solid #ed4040;
+    color: #ed4040;
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: 14px;
+}
+.relatedFeed .lbtn {
+    float: left;
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+}
+
+
+.statistics {
+    display: table;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.statistics>dt, .statistics>dd {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    padding: 18px 0;
+    position: relative;
+}
+
+.statistics>dt a, .statistics>dd a {
+    display: block;
+}
+.statistics h3 {
+    font-size: 24px;
+    color: #222;
+}
+
+b, em, h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 400;
+}
+
+address, cite, dfn, em, i, var {
+    font-style: normal;
+}
+
+.statistics h3 i {
+    font-weight: 700;
+}
+
+.statistics p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.statistics>dt:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #e8e8e8;
+    height: 46px;
+    width: 1px;
+    left: 100%;
+    top: 18px;
+}
+
+.recent {
+    background: #fff;
+}
+.recent>h2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 0 9px 20px;
+    color: #222;
+    border-top: 2px solid #ed4040;
+    border-bottom: 1px solid #ddd;
+}
+.recent .articles {
+    padding-top: 8px;
+}
+
+.recent .articles .line {
+    height: 68px;
+    padding-bottom: 19px;
+}
+
+.recent .articles .line .lbox {
+    float: left;
+    position: relative;
+    width: 118px;
+    height: 68px;
+    margin-left: 20px;
+}
+
+.recent .articles .line .lbox img {
+    width: 100%;
+	height: 100%;
+}
+
+.recent .articles .line.image .rbox {
+    width: 166px;
+}
+.recent .articles .line .rbox {
+    float: right;
+    width: 300px;
+    height: 68px;
+    margin-right: 22px;
+    font-size: 0;
+}
+
+.recent .articles .line .rbox::before {
+    content: '';
+    width: 0;
+    height: 68px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recent .articles .line .rbox .rbox-inner {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+}
+
+.recent .articles .line .rbox a {
+    display: block;
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px;
+    max-height: 44px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    letter-spacing: 0;
+    margin-bottom: 7px;
+}
+
+.recent .articles .line .rbox span {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.footer-push {
+    height: 72px;
+}
+
+.yheader>div .btn-attention, .yheader>div .btn-publish {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 37px;
+    width: 164px;
+    background: #2a90d7;
+    text-align: center;
+    border: 1px solid #2a90d7;
+    padding: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-attention {
+    display: inline-block;
+    text-align: center;
+    width: 78px;
+    line-height: 28px;
+    border: 1px solid #2A90D7;
+    border-radius: 6px;
+    color: #fff;
+    background: #2A90D7;
+    cursor: pointer;
+}
+
+.btn-attention .text:before {
+    content: "\e6ec";
+    font-family: yFont;
+    padding-right: 2px;
+}
+
+.yheader>div .btn-attention.following, .yheader>div .btn-attention.each, .yheader>div .btn-publish.following, .yheader>div .btn-publish.each {
+    color: #777;
+    border: 1px solid #ddd;
+    background: 0 0;
+}
+
+.relatedFeed .empty {
+    text-align: center;
+    padding: 200px 50px;
+    color: #777;
+}
